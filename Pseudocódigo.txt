@@ -1,0 +1,18 @@
+input.php:
+
+    Mostrar un formulario HTML.
+    El formulario tiene dos campos:
+        - Número a multiplicar.
+        - Límite de la multiplicación (hasta qué número multiplicar).
+    Al enviar el formulario, redirigir los datos a resultado.php.
+
+
+resultado.php:
+
+    Recibir los datos del formulario.
+    Crear una clase Multiplicador que tiene una propiedad numero.
+    En el constructor, inicializar el número.
+    Crear un método generarTabla(limite) que:
+        Toma un límite y genera una tabla de multiplicación desde 1 hasta el límite.
+        Devuelve la tabla en forma de lista de cadenas.
+    Mostrar los resultados en una lista no ordenada en HTML.

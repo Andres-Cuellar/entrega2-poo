@@ -1,0 +1,20 @@
+Clase Multiplicador:
+
+    Propiedades:
+        numero: El número a multiplicar (privado).
+    Métodos:
+        __construct($numero): Inicializa el objeto con el número a multiplicar.
+        generarTabla($limite): Genera una tabla de multiplicación desde 1 hasta el límite proporcionado.
+
+Formulario (input.php):
+
+    El formulario envía dos números al archivo output.php mediante el método POST:
+        El primer número es el número a multiplicar.
+        El segundo número es el límite para la multiplicación.
+
+Resultados (resultado.php):
+
+    Recibe los números del formulario.
+    Crea una instancia de la clase Multiplicador.
+    Genera la tabla de multiplicación.
+    Muestra los resultados en formato HTML.
